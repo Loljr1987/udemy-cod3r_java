@@ -6,7 +6,7 @@ public class II_DesafioIf {
 
         double nota = 1.3;
 
-        // não usar ';' em estruturas de controle (mas existe apenas uma exceção)
+        // não se usa ';' em estruturas de controle (mas existe apenas uma exceção)
 
         if (nota >= 90.0) {
             System.out.println("Quadro de Honra!");

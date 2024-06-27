@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.team.ui.importWizards"/>
+		</list>
+		<section name="ImportExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="-109"/>
+			<item key="DIALOG_Y_ORIGIN" value="167"/>
+			<item key="DIALOG_WIDTH" value="831"/>
+			<item key="DIALOG_HEIGHT" value="869"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu|13.0|0|GTK|1|"/>
+		</section>
+	</section>
+	<section name="ZipFileImportWizard">
+		<section name="ZipFileImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="933"/>
+			<item key="DIALOG_Y_ORIGIN" value="171"/>
+			<item key="DIALOG_WIDTH" value="805"/>
+			<item key="DIALOG_HEIGHT" value="600"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu|13.0|0|GTK|1|"/>
+		</section>
+	</section>
+	<section name="FileSystemImportWizard">
+		<section name="FileSystemImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="868"/>
+			<item key="DIALOG_Y_ORIGIN" value="171"/>
+			<item key="DIALOG_WIDTH" value="831"/>
+			<item key="DIALOG_HEIGHT" value="698"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu|13.0|0|GTK|1|"/>
+		</section>
+	</section>
+</section>
