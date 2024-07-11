@@ -21,7 +21,7 @@ public class IV_Inferencia {
         c = "Outro Texto";
         System.out.println(c);
 
-        // c = 4.5 Como já fopi definido o tipo 'texto', não pode ser atribuido um valor númerico.
+        // c = 4.5 Como já foi definido o tipo 'texto', não pode ser atribuido um valor númerico.
 
         double d; // variável foi declarada
         d = 123.65; // aqui ela foi inicializada
@@ -30,9 +30,9 @@ public class IV_Inferencia {
         var e = 123.45; // Com a variável, na hora que se declara ja tem de ser inicializada na mesma linha
         System.out.println(e);
 
-        var f = 12; // valor interiro
+        var f = 12; // valor inteiro
         // f = 12.01;
         System.out.println(f);
-        // valores decimais podem se definidos depois para decimais porém o contrário irá apresentar erro
+        // valores inteiros podem ser definidos depois com casas decimais, porém o contrário irá apresentar erro
     }
 }

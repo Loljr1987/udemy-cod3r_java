@@ -5,10 +5,10 @@ public class VI_NotacaoPonto {
 	public static void main(String[] args) {
 
         String s = "Bom dia X";
-        s = s.replace("X", "Senhora");
-        s = s.toUpperCase();
-        s = s.concat("!!!");
-
+        s = s.replace("X", "Senhora"); // 'repalce' é um comando de substituição.
+        s = s.toUpperCase(); // deixa todas letras em maiúsculo
+        s = s.concat("!!!"); // aqui já ocorre uma concatenação
+        
         System.out.println(s);
 
         String x = "Luci".toUpperCase();
