@@ -19,7 +19,7 @@ public class IX_TipoStringEquals {
         System.out.println("2".equals(s2.trim()));
 
 //		Muito cuidado na comparação entre strings com o operador "==",
-//		pois ele nem sempre irá comparar a string em sim mas o valor
+//		pois ele nem sempre irá comparar a string em sim o valor
 //		que está atribuido a ela, do contrário poderá retornar erro.
 //		O mais correto é usar o ".equals".
 

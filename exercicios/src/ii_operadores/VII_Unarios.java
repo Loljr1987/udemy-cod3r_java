@@ -7,11 +7,12 @@ public class VII_Unarios {
         int a = 1;
         int b = 2;
 
+        // forma pós fixada, operador depois incremento
         a++; // a = a + 1 incremento
         a--; // a = a - 1 decremento
-        // não é exclusivo apenas de números inteiros mas para qualquer um
+        // não é exclusivo apenas de números inteiros, mas para qualquer um
 
-        // outra maneira de aprensentar o código
+        // forma pré fixada, operando aós o incremento
         ++b; // a = a + 1 incremento
         --b; // a = a + 1 incremento
 

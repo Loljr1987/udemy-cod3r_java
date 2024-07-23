@@ -16,6 +16,6 @@ public class VI_Atribuicao {
         System.out.println(c);
 
         c %= 2 ; // c = c % 2; 0 ou 1
-        System.out.println(c );
+        System.out.println(c);
     }
 }
