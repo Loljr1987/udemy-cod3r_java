@@ -12,9 +12,9 @@ public class V_DesafioDiaSemana {
 
         String dia = entrada.next();
 
-        if ("domingo".equalsIgnoreCase(dia)) { // tanto o valor literal no início é  como no final é válido
+        if ("domingo".equalsIgnoreCase(dia)) { // if(dia.equalsIgnoreCase("domingo") tanto o valor literal no início ou no final, irá funcionar normalmente
             System.out.println(1);
-        } else if ("segunda".equalsIgnoreCase(dia)) { // o .equalsIgnoreCase() é para não considerar letras maiúsculas ou minúsculas
+        } else if ("segunda".equalsIgnoreCase(dia)) { // o .equalsIgnoreCase() é para desconsiderar letras maiúsculas ou minúsculas
             System.out.println(2);
         } else if ("terça".equalsIgnoreCase(dia)
                 || "terca".equalsIgnoreCase(dia)) {
@@ -31,6 +31,8 @@ public class V_DesafioDiaSemana {
         } else {
             System.out.println("Dia inválido!");
         }
+        
+        // evitar usar o "==" na comparações de Strings, é mais eficaz nesse caso utilizar o .equalsIgnoreCase nesse caso.
 
 
         entrada.close();

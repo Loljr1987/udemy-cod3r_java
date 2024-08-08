@@ -30,9 +30,9 @@ public class XV_SwitchComBreak {
 			break;
 
 		default:
-			conceito = "não informado";
+			conceito = "não informado!";
 		}
-		System.out.println("Conceito é " + conceito);
+		System.out.println("Conceito: " + conceito);
 		entrada.close();
 	}
 }

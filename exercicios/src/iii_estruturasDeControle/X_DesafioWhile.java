@@ -13,7 +13,7 @@ public class X_DesafioWhile {
         double total = 0;
 
         while (nota != -1) {
-            System.out.print("Informe a nota ( ou -1 para sair): ");
+            System.out.print("Informe a nota (ou -1 para sair): ");
             nota = entrada.nextDouble();
 
             if (nota <= 10 && nota >= 0) {
@@ -24,7 +24,7 @@ public class X_DesafioWhile {
             }
         }
 
-        //Calcular a média
+        // Calcular a média
         double media = total / quantidadeDeNotas;
         System.out.println("Média = " + media);
 

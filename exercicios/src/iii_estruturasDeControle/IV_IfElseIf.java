@@ -22,7 +22,7 @@ public class IV_IfElseIf {
             System.out.println("Conceito C");
         } else if (nota >= 2.1) {
             System.out.println("Conceito D");
-        } else {  // poderá ou não ter um 'else' no final apos os 'else if'.
+        } else {  // poderá ou não ter um 'else' no final após os 'else if'.
             System.out.println("Conceito E");
         }
 
