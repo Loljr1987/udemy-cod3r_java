@@ -6,8 +6,15 @@ public class i_Produto {
     double preco;
     double desconto;
 
-    i_Produto(String nomeInicial) {
+    i_Produto() {
 
+    }
+
+    i_Produto(String nomeInicial, double precoInicial,
+              double descontoInicial) {
+        nome = nomeInicial;
+        preco = precoInicial;
+        desconto = descontoInicial;
     }
 
     double precoComDesconto() {

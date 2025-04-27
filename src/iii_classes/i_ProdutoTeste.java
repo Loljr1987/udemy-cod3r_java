@@ -4,10 +4,9 @@ public class i_ProdutoTeste {
 
     public static void main(String[] args) {
 
-        i_Produto p1 = new i_Produto();
-        p1.nome = "Notebook";
-        p1.preco = 6300.50;
-        p1.desconto = 0.25;
+        i_Produto p1 = new i_Produto("Notebook",
+                6300.50,
+                0.25);
 
         var p2 = new i_Produto();
         p2.nome = "Monitor";
@@ -22,6 +21,5 @@ public class i_ProdutoTeste {
         double mediaCarrinho = (precoFinal1 + precoFinal2) / 2;
 
         System.out.printf("Média do Carrinho = R$%.2f.", mediaCarrinho);
-
-            }
+    }
 }
