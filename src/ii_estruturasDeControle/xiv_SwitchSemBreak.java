@@ -1,6 +1,6 @@
 package ii_estruturasDeControle;
 
-public class ivx_SwitchSemBreak {
+public class xiv_SwitchSemBreak {
 	
 	public static void main(String[] args) {
 		
@@ -9,7 +9,7 @@ public class ivx_SwitchSemBreak {
 		switch (faixa.toLowerCase()) {
 		case "preta":
 			System.out.println("Sei o Bassai-Dai...");
-		case "maroom":
+		case "marrom":
 			System.out.println("Sei o Tekki Shodan...");
 		case "roxa":
 			System.out.println("Sei o Heian Godan");
@@ -23,7 +23,7 @@ public class ivx_SwitchSemBreak {
 			System.out.println("Sei o Heian Shodan");
 			break;
 		default:
-			System.out.println("AInda não aprendi.");
+			System.out.println("Ainda não aprendi.");
 		}
 		
 		System.err.println("Fim!");

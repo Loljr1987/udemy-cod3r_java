@@ -23,7 +23,7 @@ public class i_If {
 				media < 4.5 && media >= 0;
 				
 		if ( criterioReprovar) {
-			System.out.println("Infelizmente fostes \"Reprovado\".");
+			System.out.println("Infelizmente foste \"Reprovado\".");
 		}
 		
 		entrada.close();

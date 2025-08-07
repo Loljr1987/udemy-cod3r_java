@@ -15,10 +15,10 @@ public class v_TiposPrimitivos {
 		float salario = 11_450_50F;
 		double vendasAcumuladas = 2_990_798_105.01;
 		
-		// Tipos boolenao
+		// Tipos boolean
 		boolean statusFerias = false; // or true
 				
-		// Tipo caractere
+		// Tipo character
 		char status = 'A'  ; // ativo
 		
 		// Dias de empresa
